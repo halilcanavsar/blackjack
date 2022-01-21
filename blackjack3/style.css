@@ -1,0 +1,93 @@
+.card-row {
+  display: flex;
+  justify-content: space-around;
+}
+.card {
+  border: 1px solid black;
+  background-color: white;
+  border-radius: 6px;
+  margin: 10px;
+  padding: 5px;
+  width: 60px;
+  height: 90px;
+  display: grid;
+  margin-left: -50px;
+}
+
+.card:first-child {
+  margin-left: 0;
+}
+
+.card-row {
+  display: flex;
+
+}
+
+.game-table {
+  margin-bottom: 10px;
+  display: flex;
+  flex-direction: column;
+    align-items: center;    
+}
+
+.game-table hr {
+    width: calc(50vw - 30px);
+}
+
+#game-area {
+    display: none;
+    justify-content: space-around;
+    background-color: teal;
+    border-style: double;
+    border-radius: 20px;
+    width: 50%;
+    margin: 0 auto;
+}
+#dealer-text{
+    display: flex;
+    justify-content: space-around;
+}
+#player-text{
+    display: flex;
+    justify-content: space-around;
+}
+#dealer-point{
+    display: flex;
+    justify-content: space-around;
+}
+#player-point{
+    display: flex;
+    justify-content: space-around;
+}
+
+#buttons {
+    display: flex;
+    justify-content: center;
+}
+
+#buttons input{
+    margin: 15px;
+    font-size: 18px;
+    font-weight: bold;
+    padding: 10px 25px;
+}
+
+.btn {
+    display: flex;
+    justify-content: space-around;
+}
+#game-result{
+    display: flex;
+    justify-content: space-around;
+    font-weight: bold;
+    padding: 20px;
+    font-size: 40px;
+}
+#new-game-container {
+  display: flex;
+  justify-content: space-around;
+}
+
+#new-game-container input {
+  font-size: 20px;
+}
